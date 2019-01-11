@@ -1,0 +1,333 @@
+.redirection {
+    padding: 0;height: 600 px
+}
+body, html {
+    margin: 0 px;padding: 0 px;height: 600 px;width: 300 px;
+}
+@ - webkit - keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+@ - moz - keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+@ - webkit - keyframes fadeOut {
+    from {
+        opacity: 1
+    }
+    to {
+        opacity: 0
+    }
+}
+@ - moz - keyframes fadeOut {
+    from {
+        opacity: 1
+    }
+    to {
+        opacity: 0
+    }
+}
+@keyframes fadeOut {
+    from {
+        opacity: 1
+    }
+    to {
+        opacity: 0
+    }
+    }#
+    Mposter {
+        position: absolute;right: 9 px;top: 10 px;z - index: 11;width: 410 px;height: 230 px;margin: 0
+    }
+
+    .blackback {
+        position: absolute;left: 556 px;top: 8 px;z - index: 2;width: 476 px;height: 254 px;background: #000}
+        
+        # metro - Off {
+            top: 13 px;right: 18 px;z - index: 999999;display: none
+        }
+
+        #metro - On {
+            top: 13 px;right: 18 px;z - index: 999999;display: none
+        }
+
+        #
+        metro - pause {
+            opacity: 0;
+        }
+
+        #
+        metro - pause,
+        #metro - play {
+            bottom: 13 px;right: 364 px;z - index: 999
+        }
+
+        #
+        metro - Off,
+        #metro - pause,
+        #metro - play {
+            position: absolute;width: 23 px;height: 24 px;margin: 0
+        }
+
+        .visiblePoster245 {
+            -webkit - animation: fadeIn ease - in 1; - moz - animation: fadeIn ease - in 1;
+            animation: fadeIn ease - in 1; - webkit - animation - fill - mode: forwards; - moz - animation - fill - mode: forwards;
+            animation - fill - mode: forwards; - webkit - animation - duration: .1 s; - moz - animation - duration: .1 s;
+            animation - duration: .1 s; - webkit - animation - delay: .1 s; - moz - animation - delay: .1 s;
+            animation - delay: .1 s
+        }
+        img {
+            border: 0
+        }
+
+        #
+        metro - Off {
+            background: url(https: //sigp.ca/wbm/son-off.png) no-repeat}
+
+            #metro - Off: active, #metro - Off: focus, #metro - Off: hover, #metro - pause: active, #metro - pause: focus, #metro - pause: hover, #metro - play: active, #metro - play: focus, #metro - play: hover {
+                background - position: -21 px 0
+            }
+
+            #
+            metro - On {
+                position: absolute;width: 23 px;height: 26 px;background: url(https: //sigp.ca/wbm/son-on.png) no-repeat}
+
+                #metro - On: active, #metro - On: focus, #metro - On: hover {
+                    background - position: -22 px 0
+                }
+
+                #
+                MvolumeOn {
+                    position: absolute;width: 83 px;height: 63 px;right: 160 px;top: 84 px;z - index: 20;margin: 0;background: url(https: //sigp.ca/wbm/bigsong.png) no-repeat;cursor:pointer}
+
+                    #metro - pause {
+                        background: url(https: //sigp.ca/wbm/stop2.png) no-repeat;opacity:1}
+
+                        #metro - play {
+                            background: url(https: //sigp.ca/wbm/play2.png) no-repeat}
+
+                            .limitSpin, .Mspin {
+                                border - radius: 50 px;
+                                overflow: hidden;
+                                position: absolute;
+                                z - index: 9999999999
+                            }
+
+                            .visibleControl {
+                                -webkit - animation: fadeIn ease - in 1; - moz - animation: fadeIn ease - in 1;
+                                animation: fadeIn ease - in 1; - webkit - animation - fill - mode: forwards; - moz - animation - fill - mode: forwards;
+                                animation - fill - mode: forwards; - webkit - animation - duration: .2 s; - moz - animation - duration: .2 s;
+                                animation - duration: .2 s; - webkit - animation - delay: .1 s; - moz - animation - delay: .1 s;
+                                animation - delay: .1 s;
+                                cursor: pointer
+                            }
+
+                            .hideControl {
+                                -webkit - animation: fadeOut ease - in 1; - moz - animation: fadeOut ease - in 1;
+                                animation: fadeOut ease - in 1; - webkit - animation - fill - mode: forwards; - moz - animation - fill - mode: forwards;
+                                animation - fill - mode: forwards; - webkit - animation - duration: .2 s; - moz - animation - duration: .2 s;
+                                animation - duration: .2 s; - webkit - animation - delay: .1 s; - moz - animation - delay: .1 s;
+                                animation - delay: .1 s
+                            }
+
+                            #
+                            metro - bigplay, #redir2, #Mspin1, .displayFalse {
+                                display: none
+                            }
+                            @keyframes spin {
+                                0 % {
+                                    transform: rotate(360 deg)
+                                }
+                                100 % {
+                                    transform: rotate(0)
+                                }
+                            }
+                            @ - moz - keyframes spin {
+                                0 % {
+                                    -moz - transform: rotate(360 deg)
+                                }
+                                100 % {
+                                    -moz - transform: rotate(0)
+                                }
+                            }
+                            @ - webkit - keyframes spin {
+                                0 % {
+                                    -webkit - transform: rotate(360 deg)
+                                }
+                                100 % {
+                                    -webkit - transform: rotate(0)
+                                }
+                            }
+                            @ - o - keyframes spin {
+                                0 % {
+                                    -o - transform: rotate(360 deg)
+                                }
+                                100 % {
+                                    -o - transform: rotate(0)
+                                }
+                            }
+
+                            .Mspin {
+                                width: 18 px;height: 18 px;margin: 0;animation: spin 1.5 s linear 0 s infinite; - moz - animation: 1.5 s linear 0 s none infinite spin; - webkit - animation: spin 1.5 s linear 0 s infinite; - 0 - animation: spin 1.5 s linear 0 s infinite; - webkit - animation - play - state: paused; - o - animation - play - state: paused; - moz - animation - play - state: paused;animation - play - state: paused;bottom: 17 px;right: 390 px
+                            }
+
+                            .Mspin: hover {
+                                -o - animation - play - state: running; - moz - animation - play - state: running; - webkit - animation - play - state: running
+                            }
+
+                            .limitSpin {
+                                width: 24 px;height: 25 px;margin - left: 0;margin - top: 0;top: 270 px;left: 991 px
+                            }
+
+                            .redirection {
+                                z - index: 15;
+                                cursor: pointer
+                            }
+
+                            #
+                            replay, .redirection {
+                                left: 0;top: 0;position: absolute;margin: 0
+                            }
+
+                            #
+                            replay {
+                                width: 18 px;height: 18 px;background: url(https: //sigp.ca/wbm/replay.png) no-repeat;z-index:99}
+
+                                #metro - bigplay {
+                                    width: 74 px;height: 49 px;position: absolute;right: 175 px;top: 100 px;z - index: 12;background: url(https: //sigp.ca/wbm/bt_play.png) no-repeat;cursor:pointer;opacity:1;margin:0}
+
+                                    #metro - bigplay: active, #metro - bigplay: focus, #metro - bigplay: hover {
+                                        background - position: -78 px 0
+                                    }
+
+                                    .redirection {
+                                        width: 100 %
+                                    }
+
+                                    #
+                                    pub - metro151123, #pub - metropole - bloc {
+                                        margin: 0 auto;text - align: center;height: 250 px
+                                    }
+
+                                    #
+                                    pub - metro151123, #pub - metropole - bloc {
+                                        position: relative;padding: 0;overflow: hidden;width: 970 px
+                                    }
+
+                                    #
+                                    redir2 {
+                                        z - index: 2;
+                                        cursor: pointer;
+                                        width: 300 px;
+                                        height: 400 px;
+                                        margin: 0;
+                                        padding: 0;
+                                        position: absolute;
+                                        right: 0;
+                                        bottom: 0 px;
+                                    }
+
+                                    #
+                                    metro - load {
+                                        position: absolute;width: 16 px;height: 16 px;left: 148 px;top: 89 px;margin: 0 0 0 - 8 px;z - index: 2
+                                    }
+
+                                    #
+                                    Mwrap_player {
+                                        position: relative;padding: 0;overflow: hidden;width: 410 px;height: 207 px;margin: 34 px 0 0 551 px;z - index: 3;
+                                    }
+
+                                    #
+                                    Mplayer1511 {
+                                        position: absolute;left: -30 px;top: -78 px;z - index: 3;margin: 0;padding: 0
+                                    }
+
+                                    #
+                                    pub - metropole - bloc {
+                                        background: url(banner.jpg) no - repeat #000000;}
+                                        
+                                        # Mback {
+                                            position: absolute;z - index: 1000;top: 0;left: 0;width: 300 px;height: 600 px
+                                        }
+
+                                        #px2 {
+                                            position: absolute;z - index: 10;left: 0;bottom;0;width: 1 px;height: 1 px;margin: 0;padding: 0
+                                        }
+
+                                        #
+                                        date {
+                                            position: absolute;z - index: 12;left: 0 px;bottom: 0 px;
+                                        }
+                                        @ - webkit - keyframes fadeIn {
+                                            from {
+                                                opacity: 0;
+                                            }
+                                            to {
+                                                opacity: 1;
+                                            }
+                                        }
+                                        @ - moz - keyframes fadeIn {
+                                            from {
+                                                opacity: 0;
+                                            }
+                                            to {
+                                                opacity: 1;
+                                            }
+                                        }
+                                        @keyframes fadeIn {
+                                            from {
+                                                opacity: 0;
+                                            }
+                                            to {
+                                                opacity: 1;
+                                            }
+                                        }
+                                        @ - webkit - keyframes fadeOut {
+                                            from {
+                                                opacity: 1;
+                                            }
+                                            to {
+                                                opacity: 0;
+                                            }
+                                        }
+                                        @ - moz - keyframes fadeOut {
+                                            from {
+                                                opacity: 1;
+                                            }
+                                            to {
+                                                opacity: 0;
+                                            }
+                                        }
+                                        @keyframes fadeOut {
+                                            from {
+                                                opacity: 1;
+                                            }
+                                            to {
+                                                opacity: 0;
+                                            }
+                                        }
+                                        .displayTrue {
+                                            display: block;cursor: pointer; - webkit - animation: fadeIn 1 s;animation: fadeIn 1 s;
+                                        }
+                                        .displayTrue2 {
+                                            display: block
+                                        }
+                                        .displayFalse2 {
+                                            display: none
+                                        }
